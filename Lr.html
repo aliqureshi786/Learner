@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Lr.css" rel="stylesheet">
+  <title>LEARNER GROWTH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <class="container">
+
+    <nav class="nav">
+      <img src="Untitled design (1).png" width="120px" height="70px" class="im">
+      <i class="fa-solid fa-bars humbuger"></i>
+      <div class="humbuger-manage">
+        <ul>
+
+          <div class="search">
+            <from>
+              <input type="search" placeholder="search notes and previous year">
+              <button>search</button>
+            </from>
+          </div>
+
+          <div class="humbuger-design"><li><a href="">home</a></li></div>
+          <li class="drop" onmousemove="notes()"><a href="">class notes</a><i class="fa fa-caret-down"
+              style="color: white; margin-top: 10px;"></i></li>
+
+          <div class="dropmain">
+            <div class="dropdown-content">
+              <div class="under">
+                <h1>college notes</h1>
+                <ul>
+                  <div style="display: flex;">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h5>ALL UNIVERSITY NOTES</h5>
+                  </div>
+                  <li><a href="">BCA NOTES</a></li>
+                  <li><a href="">BSC NOTES</a></li>
+                  <li><a href="">BBA NOTES</a></li>
+                  <li><a href="">PGDC NOTES</a></li>
+                </ul>
+              </div>
+
+              <div class="under">
+                <h1>school notes</h1>
+                <ul>
+                  <div style="display: flex;">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h5>ALL BOARD NOTES</h5>
+                  </div>
+
+                  <li><a href="">class 9</a></li>
+                  <li><a href="">class 10</a></li>
+                  <li><a href="">class 11</a></li>
+                  <li><a href="">class 12</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <li class="drop1" ondblclick="notes1()"><a href="">previous year</a><i class="fa fa-caret-down"
+              style="color:white; margin-top: 10px;"></i></li>
+          <div class="dropmain1">
+            <div class="dropdown-content1">
+              <div class="under1">
+                <h3 style="text-align: center;">COLLEGE PREVIOUS YEAR</h3>
+                <ul>
+                  <div style="display: flex;">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h5>ALL UNIVERSITY PREVIOUS YEAR</h5>
+                  </div>
+                  <li><a href="">BCA PREVIOUS YEAR</a></li>
+                  <li><a href="">BSC PREVIOUS YEAR</a></li>
+                  <li><a href="">BBA PREVIOUS YEAR</a></li>
+                  <li><a href="">PGDC PREVIOUS YEAR</a></li>
+                </ul>
+              </div>
+
+              <div class="under1">
+                <h3 style="text-align: center;">SCHOOL NOTES</h3>
+                <ul>
+                  <div style="display: flex;">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h5>ALL BOARD PREVIOUS</h5>
+                  </div>
+
+                  <li><a href="">CLASS 9</a></li>
+                  <li><a href="">CLASS 10</a></li>
+                  <li><a href="">CLASS 11</a></li>
+                  <li><a href="">CLASS 12</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </ul>
+
+        <button>LOGIN IN</button>
+      </div>
+    </nav>
+
+    <!--serach bar-->
+
+    <div class="search">
+
+      <from>
+
+        <input type="search" placeholder="search notes and previous year">
+        <button>search</button>
+
+
+      </from>
+
+
+
+    </div>
+
+
+
+    <!--website intro-->
+
+    <div class="intro">
+      <div class="intron">
+        <h1 style="margin-top: 5rem;"> welcome to the website</h1>
+        <p>Our mission is to empower students at all levels whether in school or college by providing easy access to
+          high-quality educational resources. We offer a wide range of class notes, study materials, and previous year
+          question papers, designed to help students better understand their coursework and effectively prepare for
+          exams. Our platform aims to be a trusted study companion for students, helping them achieve academic success
+          through structured, comprehensive resources.
+
+          Whether you're preparing for a school exam or tackling university-level coursework, we're here to make your
+          learning journey smoother, more efficient, and more effective.
+
+        </p>
+
+      </div>
+      <img
+        src="https://img.freepik.com/free-photo/business-finance-employment-female-successful-entrepreneurs-concept-friendly-smiling-office-manager-greeting-new-coworker-businesswoman-welcome-clients-with-hand-wave-hold-laptop_1258-59122.jpg?ga=GA1.1.1509322490.1723278880&semt=ais_hybrid"
+        width="500px" height="400px" style="border-radius: 5px 5px 5px 0px;" />
+    </div>
+    <div id="heading">
+      <h1 style="border-left: 10px solid rgb(240, 99, 99); margin: 50px; text-transform: capitalize;">popular notes</h1>
+    </div>
+    <!--cards-->
+    <div class="notes">
+
+      <!--first cards-->
+      <div class="card1">
+        <img
+          src="https://img.freepik.com/free-photo/young-asian-girl-with-notebook-coffee-go-hands-standing-isolated-against-gray-background_231208-2172.jpg?size=626&ext=jpg&ga=GA1.1.1509322490.1723278880&semt=ais_hybrid"
+          style="border-radius: 20px 20px 0px 0px;" />
+        <h1 id="h1" style="margin: 10px;">Bca notes</h1>
+        <button class="btn">Dowload pdf<i class="fa-solid fa-download"></i></button>
+      </div>
+      <!--second card-->
+      <div class="card2 card1">
+        <img
+          src="https://img.freepik.com/free-photo/red-haired-lady-eyeglasses-holds-books-shows-ok-sign_197531-23789.jpg?size=626&ext=jpg&ga=GA1.1.1509322490.1723278880&semt=ais_hybrid"
+          style="border-radius: 20px 20px 0px 0px;" />
+        <h1 style="margin: 10px;">BBA notes</h1>
+        <button class="btn">Dowload pdf <i class="fa-solid fa-download"></i></button>
+      </div>
+      <!--third card-->
+      <div class="card3 card1">
+        <img
+          src="https://img.freepik.com/free-photo/front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall_140725-42636.jpg?w=740&t=st=1724320821~exp=1724321421~hmac=e53188be78ee1200b9d2ffc1aed7b058258ac2a0a38ecd3dd961361feb8d3728"
+          style="border-radius:20px 20px 0px 0px;" />
+        <h1 style="margin: 10px;">BSC notes</h1>
+        <button class="btn"><a href="https://www.dauniv.ac.in/">Dowload pdf</a><i
+            class="fa-solid fa-download"></i></button>
+      </div>
+      <!--finish card-->
+    </div>
+
+    <!--school contanier-->
+    <h1 style="border-left: 10px solid red; margin: 50px; text-transform: capitalize;">school notes</h1>
+    <!--cards-->
+    <div class="notes1">
+      <!--first cards-->
+      <div class="card4">
+        <img
+          src="https://img.freepik.com/free-photo/lovely-young-girl-holding-books_23-2148475769.jpg?ga=GA1.1.1509322490.1723278880&semt=ais_hybrid"
+          style="border-radius:20px 20px 0px 0px;" />
+        <h1 style="margin: 10px;">10 class notes</h1>
+        <button>Dowload pdf<i class="fa-solid fa-download"></i></button>
+      </div>
+      <!--second card-->
+      <div class="card5 card4">
+        <img
+          src="https://img.freepik.com/free-photo/successful-child-with-graduation-cap-backpack-full-books_1098-3455.jpg?ga=GA1.1.1509322490.1723278880&semt=ais_hybrid"
+          style="border-radius:20px 20px 0px 0px;" />
+        <h1 style="margin: 10px;">11 class notes</h1>
+        <button>Dowload pdf<i class="fa-solid fa-download"></i></button>
+      </div>
+      <!--third card-->
+      <div class="card6 card4">
+        <img
+          src="https://img.freepik.com/free-photo/cute-schoolgirl-uniform-holding-notepads-classroom_23-2148224862.jpg?ga=GA1.1.1509322490.1723278880&semt=ais_hybrid"
+          style="border-radius:20px 20px 0px 0px;" />
+        <h1 style="margin: 10px;">12 class notes</h1>
+        <button>Dowload pdf<i class="fa-solid fa-download"></i></button>
+      </div>
+      <!--finish card-->
+    </div>
+
+    <!--accro part-->
+    <div class="accro">
+      <!--acc heading-->
+      <div class="t">
+        <h1 style="text-transform:uppercase;">fqas</h1>
+      </div>
+      <!--acc all box-->
+      <div class="accBox">
+
+        <div class="accinside" onclick="pannelOpen()">
+          <h1>What types of study materials are available on your website</h1>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+
+        <p id="pannel">We offer a wide range of study materials, including class notes, previous year question papers,
+          and other resources that can help you prepare for exams. Whether you're in school or college, we have
+          materials across various subjects to support your learning.</p>
+      </div>
+
+      <div class="accBox">
+        <div class="accinside1" onclick="pannelOpen1()">
+          <h1>Are the materials available for both school and college students?</h1>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p id="pannel1">Yes! Our website provides study materials for both school and college students. You can find
+          resources for subjects at all academic levels, from high school to university courses.</p>
+      </div>
+
+      <div class="accBox">
+        <div class="accinside2" onclick="pannelOpen2()">
+          <h1>What types of study materials are available on your website</h1>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p id="pannel2">We offer a wide range of study materials, including class notes, previous year question papers,
+          and other resources that can help you prepare for exams. Whether you're in school or college, we have
+          materials across various subjects to support your learning.</p>
+      </div>
+
+
+      <div class="accBox">
+        <div class="accinside3" onclick="pannelOpen3()">
+          <h1>What types of study materials are available on your website</h1>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p id="pannel3">We offer a wide range of study materials, including class notes, previous year question papers,
+          and other resources that can help you prepare for exams. Whether you're in school or college, we have
+          materials across various subjects to support your learning.</p>
+      </div>
+
+
+      <div class="accBox">
+        <div class="accinside4" onclick="pannelOpen4()">
+          <h1>What types of study materials are available on your website</h1>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p id="pannel4">We offer a wide range of study materials, including class notes, previous year question papers,
+          and other resources that can help you prepare for exams. Whether you're in school or college, we have
+          materials across various subjects to support your learning.</p>
+      </div>
+
+    </div>
+
+    </div>
+    <div id="footer-main">
+
+      <div class="info-resource">
+        <div class="firstlist">
+          <!--this is first ul-->
+          <h1 style="text-align: center; font-size: 4vh;">class notes</h1>
+          <div class="respon">
+            <ul>
+              <li><a href="#">colleages all notes</a></li>
+              <li><a href="#">bca</a></li>
+              <li><a href="#">bba</a></li>
+              <li><a href="#">bsc cs</a></li>
+              <li><a href="#">pgdc</a></li>
+            </ul>
+            <br>
+            <ul class="respon-sub">
+              <li><a href="#">school all notes </a></li>
+              <li><a href="#">class 10</a></li>
+              <li><a href="#">class 11</a></li>
+              <li><a href="#">class 12 </a></li>
+            </ul>
+          </div>
+        </div>
+        <!--second ul-->
+        <div class="secondlist">
+          <h1 style="font-size: 4vh;">previese year</h1>
+          <div class="respon">
+            <ul class="respon-sub1">
+              <!--<h1 style="font-size: 4vh;">previese year</h1>-->
+
+              <li><a href="#">colleages all pre</a></li>
+              <li><a href="#">bca</a></li>
+              <li><a href="#">bba </a></li>
+              <li><a href="#">bsc cs</a></li>
+              <li><a href="#">pgdc</a></li>
+            </ul>
+            <br>
+            <ul class="respon-sub">
+              <li><a href="#">school all pre </a></li>
+              <li><a href="#">CLASS 10 </a></li>
+              <li><a href="#">CLASS 11 </a></li>
+              <li><a href="#">CLASS 12 </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="thirdlist">
+          <ul>
+            <h1>contact</h1>
+            <li><a href="#">email:-aliq786@gmail.com</a></li>
+            <li><a href="#">phone number:+2345361</a></li>
+            <li><a href="#">address:-anand nagar khandwa m.p</a></li>
+            <li><a href="#">working hours:-5am to 8am</a></li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="company-information">
+        <h1>About us</h1>
+        <h2>mission :-</h2>
+        <p>we aim to make education accessible by providing class notes and previous year question papers for both
+          school and college students</p>
+        <br>
+        <h2>vision :-</h2>
+        <p>empowering students to achieve academic success with free high-quality resources</p>
+        <br>
+        <h2>services :-</h2>
+        <p>free class notes solved question papers and study tips.</p>
+      </div>
+      <div class="about">
+        <h1 style="color:orangered; font-size: 4vh;">about me</h1>
+        <ul>
+          <a href=""><i class="fa-brands fa-linkedin" style="color:white"></i></a>
+          <a href=""><i class="fa-brands fa-github" style="color:white"></i></a>
+          <a href=""><i class="fa-solid fa-envelope" style="color:white"></i></a>
+        </ul>
+      </div>
+
+      <div class="updates" style="color:white;">
+        <h1>connect us on social media for updates</h1>
+        <p>follow us on social media for updates:</p>
+        <ul>
+          <a href=""><i class="fa-brands fa-linkedin" style="color:white"></i></a>
+          <a href=""><i class="fa-brands fa-github" style="color:white"></i></a>
+          <a href=""><i class="fa-solid fa-envelope" style="color:white"></i></a>
+        </ul>
+      </div>
+      <!--<div class="help">-->
+      <span class="help">
+        <h3>need assistance ?</h3><a href="">visit our help center</a>
+      </span>
+      <!--</div>-->
+
+
+      <div class="footLogo">
+        <img src="Untitled design (1).png" width="150px" height="80px">
+        <q>empowering students simplifying learning</q>
+
+      </div>
+
+      <div class="copyright">
+        <div id="mark">
+          <i class="fa-regular fa-copyright" id="copy"></i>
+          <h5>2024.learner.com all rights reserverd</h5>
+        </div>
+        <div id="privacy">
+          <a href="">privacy</a>
+          <a href="">privacy</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="lr.js"></script>
+    <script src="https://kit.fontawesome.com/7b51bbea33.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
