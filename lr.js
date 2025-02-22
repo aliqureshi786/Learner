@@ -1,30 +1,21 @@
  var dropContainer = document.querySelector(".dropmain");
- var dropContainer1 = document.getElementsByClassName("dropmain1")
+ var dropContainer1 = document.getElementsByClassName(".dropmain1")
  function notes(){
-      dropContainer.style.display="block";
+     if(dropContainer.style.display=="none"){
+          dropContainer.style.display="block";
+     }
+     else{
+          dropContainer.style.display="none"
+     }
  }
  function notes1(){
-     dropContainer1.style.display="block"
+     if(dropContainer1.style.display=="none"){
+          dropContainer1.style.display="block";
+     }
+     else{
+          dropContainer1.style.display="none"
+     }
 }
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  var pannelPart=document.getElementById('pannel')
  var pannelPart1=document.getElementById('pannel1')
  var pannelPart2=document.getElementById('pannel2')
@@ -32,18 +23,43 @@
  var pannelPart3=document.getElementById('pannel4');
  
  function pannelOpen(){
-      pannelPart.style.display="block";
-      pannelPart.style.pannnelhover="transform: scale(1.1)";
+     if(pannelPart.style.display=="none"){
+          pannelPart.style.display="block";
+     }
+     else{
+          pannelPart.style.display="none"
+     }
  }
  function pannelOpen1(){
-      pannelPart1.style.display="block";
+     if(pannelPart1.style.display=="none"){
+          pannelPart1.style.display="block";
+     }
+     else{
+          pannelPart1.style.display="none"
+     }
  }
  function pannelOpen2(){
-      pannelPart2.style.display="block";
+     if(pannelPart2.style.display=="none"){
+          pannelPart2.style.display="block";
+     }
+     else{
+          pannelPart2.style.display="none"
+     }
  }
  function pannelOpen3(){
-      pannelPart3.style.display="block";
+     if(pannelPart3.style.display=="none"){
+          pannelPart3.style.display="block";
+     }
+     else{
+          pannelPart3.style.display="none"
+     }
  }
  function pannelOpen4(){
-      pannelPart4.style.display="block";
+     if(pannelPart4.style.display=="none"){
+          pannelPart4.style.display="block";
+     }
+     else{
+          pannelPart4.style.display="none"
+     }
  }
+ 

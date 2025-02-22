@@ -12,25 +12,24 @@
 </head>
 
 <body>
-  <class="container">
+  
 
     <nav class="nav">
-      <img src="Untitled design (1).png" width="120px" height="70px" class="im">
+      <img src="Untitled design (1).png" width="120px" height="60px" class="im">
       <i class="fa-solid fa-bars humbuger"></i>
-      <div class="humbuger-manage">
+      
+      
+      <div class="humbuger">
+     
         <ul>
 
-          <div class="search">
-            <from>
-              <input type="search" placeholder="search notes and previous year">
-              <button>search</button>
-            </from>
-          </div>
-
+          
           <div class="humbuger-design"><li><a href="">home</a></li></div>
-          <li class="drop" onmousemove="notes()"><a href="">class notes</a><i class="fa fa-caret-down"
+          
+          <div class="humbuger-design">
+          <li class="drop" onclick="notes()"><a href="">class notes</a><i class="fa fa-caret-down" id=humbuger-icon
               style="color: white; margin-top: 10px;"></i></li>
-
+            </div>
           <div class="dropmain">
             <div class="dropdown-content">
               <div class="under">
@@ -62,11 +61,14 @@
                 </ul>
               </div>
             </div>
+            <h3 style="margin-left: 50px; padding: 20px; font-family: Poppins; text-transform: capitalize;">Other stream notes click here</h3>
+            <button style="width:150px;height:50px;border-radius: 5px;background-color: #3a86ff; position: relative;margin-left: 90px; padding: 10px; font-family: Poppins; font-size: 20px; text-transform: capitalize;">access it</button><i class="fa-solid fa-arrow-up-right-from-square" style="position: absolute;right:310px;margin-top: 18px;"></i>
           </div>
-
-
-          <li class="drop1" ondblclick="notes1()"><a href="">previous year</a><i class="fa fa-caret-down"
+       
+        
+        <div class="humbuger-design"> <li class="drop1" ><a href="">previous year</a><i class="fa fa-caret-down"
               style="color:white; margin-top: 10px;"></i></li>
+        </div>
           <div class="dropmain1">
             <div class="dropdown-content1">
               <div class="under1">
@@ -98,13 +100,17 @@
                 </ul>
               </div>
             </div>
+            <h3 style="margin-left: 50px; padding: 20px; font-family: Poppins; text-transform: capitalize;">Other stream notes click here</h3>
+            <button style="width:150px;height:50px;border-radius: 5px;background-color: #3a86ff; position: relative;margin-left: 90px; padding: 10px; font-family: Poppins; font-size: 20px; text-transform: capitalize;">access it</button><i class="fa-solid fa-arrow-up-right-from-square" style="position: absolute;right:310px;margin-top: 18px;"></i>
           </div>
-
-        </ul>
-
-        <button>LOGIN IN</button>
-      </div>
-    </nav>
+          <button>Log In</button>
+          <button id="sign">Sign Up</button
+          </div>
+      
+    </ul>
+    
+  
+      </nav>
 
     <!--serach bar-->
 
@@ -310,7 +316,7 @@
               <li><a href="#">pgdc</a></li>
             </ul>
             <br>
-            <ul class="respon-sub">
+            <ul class="respon-sub1">
               <li><a href="#">school all pre </a></li>
               <li><a href="#">CLASS 10 </a></li>
               <li><a href="#">CLASS 11 </a></li>
